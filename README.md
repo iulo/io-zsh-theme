@@ -1,5 +1,11 @@
+# io zsh theme
+
+io theme is based on [`Astro`](https://github.com/iplaces/astro-zsh-theme) theme
+
+<del>
 # Astro zsh theme
 Astro theme is based on [`ys`](http://blog.ysmood.org/my-ys-terminal-theme/) theme and `robbyrushell` (default theme) theme. 
+</del>
 
 ## Screenshots
 ![demo](./astro.png)
@@ -12,8 +18,8 @@ $ git clone https://github.com/iplaces/astro-zsh-theme.git
 
 
 #### Theme 
-1. Copy `astro.zsh-theme` file into the `~/.oh-my-zsh/themes/` directory.
-2. Change the theme variable name to `ZSH_THEME="astro"` in `~/.zshrc`
+1. Copy `io.zsh-theme` file into the `~/.oh-my-zsh/themes/` directory.
+2. Change the theme variable name to `ZSH_THEME="io"` in `~/.zshrc`
 3. Reload ZSH with `source ~/.zshrc`
 
 #### Color

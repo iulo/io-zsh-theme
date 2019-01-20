@@ -2,7 +2,8 @@
 local current_dir='${PWD/#$HOME/~} '
 
 # ret status
-local ret_status="(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
+local ret_status="(?:%{$fg_bold[green]%}$ :%{$fg_bold[red]%}$ )"
+# local ret_status="(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
 
 # VCS
 YS_VCS_PROMPT_PREFIX="%{$fg_bold[white]%}[%{$reset_color%}%{$fg_bold[cyan]%}"
@@ -31,3 +32,8 @@ ${git_info}\
 ${git_sha}\
 %{$fg[white]%}[%*]
 %${ret_status}%{$reset_color%}"
+
+
+# %(#,%{$bg[yellow]%}%{$fg[black]%}%n%{$reset_color%},%{$fg[cyan]%}%n)\
+# %{$fg[white]%}@\
+# %{$fg[green]%}%m \
